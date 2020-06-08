@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/gitmoin/gistest/issues"
   },
-  "homepage": "https://github.com/gitmoin/gistest#readme"
+  "homepage": "https://github.com/gitmoin/gistest#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
